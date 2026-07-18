@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NATIVA — Feita pra durar. Feita pra você.</title>
+<meta name="description" content="NATIVA: camisetas, camisas, polos, calças jeans, jaquetas, moletom e acessórios. Corte firme, tecido que dura. Compre direto pelo WhatsApp.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="site-header"></div>
+
+<!-- HERO -->
+<section class="hero-full">
+  <div class="hero-full-bg">
+    <svg class="hero-full-icon"><use href="icons.svg#ic-jaqueta"></use></svg>
+  </div>
+  <div class="hero-full-content">
+    <p class="eyebrow" style="justify-content:center">Nova coleção · Inverno 2026</p>
+    <h1>FEITA PRA DURAR.<br><em>FEITA PRA VOCÊ.</em></h1>
+    <p>Peças com corte firme, tecido que aguenta o uso de verdade e acabamento que não sai na segunda lavada.</p>
+    <div class="hero-actions" style="justify-content:center">
+      <button type="button" class="btn btn-primary" id="heroOpenCat">Ver categorias</button>
+      <a class="btn btn-ghost" data-whats="Olá! Quero ver as novidades da NATIVA.">Falar no WhatsApp</a>
+    </div>
+  </div>
+  <svg class="hero-full-stamp"><use href="icons.svg#ic-selo"></use></svg>
+</section>
+
+<!-- DESTAQUES -->
+<section class="section" style="padding-bottom:0">
+  <div class="section-head reveal">
+    <div>
+      <p class="eyebrow">Selo NATIVA</p>
+      <h2>Novidades da semana</h2>
+    </div>
+    <a href="todas.html" class="link-more">Ver catálogo completo →</a>
+  </div>
+  <div class="product-grid" id="featuredGrid"></div>
+</section>
+
+<!-- CATEGORIAS -->
+<section class="section">
+  <div class="section-head reveal">
+    <div>
+      <p class="eyebrow">Catálogo</p>
+      <h2>Compre por categoria</h2>
+    </div>
+    <button type="button" class="link-more" id="verTodasCat" style="background:none;border:none;font:inherit;cursor:pointer">Ver as 8 categorias →</button>
+  </div>
+  <div class="cat-scroll">
+    <a class="cat-card reveal" href="camisetas.html">
+      <svg class="cat-icon"><use href="icons.svg#ic-camiseta"></use></svg>
+      <span class="cat-count">5 peças</span>
+      <h3>Camisetas</h3>
+      <span class="cat-go">Ver todas →</span>
+    </a>
+    <a class="cat-card reveal" href="camisas.html">
+      <svg class="cat-icon"><use href="icons.svg#ic-camisa"></use></svg>
+      <span class="cat-count">4 peças</span>
+      <h3>Camisas</h3>
+      <span class="cat-go">Ver todas →</span>
+    </a>
+    <a class="cat-card reveal" href="polos.html">
+      <svg class="cat-icon"><use href="icons.svg#ic-polo"></use></svg>
+      <span class="cat-count">4 peças</span>
+      <h3>Polos</h3>
+      <span class="cat-go">Ver todas →</span>
+    </a>
+    <a class="cat-card reveal" href="calcas-jeans.html">
+      <svg class="cat-icon"><use href="icons.svg#ic-calca"></use></svg>
+      <span class="cat-count">4 peças</span>
+      <h3>Calças Jeans</h3>
+      <span class="cat-go">Ver todas →</span>
+    </a>
+    <a class="cat-card reveal" href="jaquetas-casacos.html">
+      <svg class="cat-icon"><use href="icons.svg#ic-jaqueta"></use></svg>
+      <span class="cat-count">4 peças</span>
+      <h3>Jaquetas e Casacos</h3>
+      <span class="cat-go">Ver todas →</span>
+    </a>
+    <a class="cat-card reveal" href="acessorios.html">
+      <svg class="cat-icon"><use href="icons.svg#ic-acessorio"></use></svg>
+      <span class="cat-count">4 peças</span>
+      <h3>Acessórios</h3>
+      <span class="cat-go">Ver todas →</span>
+    </a>
+  </div>
+</section>
+
+<!-- MANIFESTO -->
+<section class="manifesto">
+  <div class="manifesto-inner">
+    <h2 class="reveal">Nativa na raiz.<br>Firme na entrega.</h2>
+    <div class="manifesto-list">
+      <div class="manifesto-item reveal">
+        <span class="num">Tecido</span>
+        <h4>Matéria-prima que aguenta o tranco</h4>
+        <p>Selecionamos tecidos encorpados, testados para resistir à rotina real: trabalho, corre, festa e tudo no mesmo dia.</p>
+      </div>
+      <div class="manifesto-item reveal">
+        <span class="num">Corte</span>
+        <h4>Modelagem pensada pro corpo brasileiro</h4>
+        <p>Caimento estudado em diferentes biotipos, sem sacrificar conforto por estética — nem o contrário.</p>
+      </div>
+      <div class="manifesto-item reveal">
+        <span class="num">Acabamento</span>
+        <h4>Costura reforçada, selo de qualidade</h4>
+        <p>Cada peça passa por inspeção antes de sair da loja. Se não é firme, não leva o nosso selo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-strip">
+  <p class="eyebrow" style="justify-content:center;color:#f2ddd6">Atendimento direto</p>
+  <h2 class="reveal">Dúvida de tamanho, cor ou entrega? Fala com a gente no WhatsApp.</h2>
+  <p>Resposta rápida, sem robô — time real te ajudando a escolher.</p>
+  <a class="btn" data-whats="Olá! Preciso de ajuda para escolher uma peça na NATIVA.">
+    Chamar no WhatsApp
+  </a>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="main.js"></script>
+<script src="layout.js"></script>
+<script src="products.js"></script>
+<script>
+  mountLayout('home');
+
+  document.getElementById('heroOpenCat').addEventListener('click', () => document.getElementById('catTrigger').click());
+  document.getElementById('verTodasCat').addEventListener('click', () => document.getElementById('catTrigger').click());
+
+  (async () => {
+    const grid = document.getElementById('featuredGrid');
+    grid.innerHTML = `<div class="empty-state">Carregando peças…</div>`;
+    const catalogo = await carregarCatalogo();
+
+    // Vitrine de destaques: novidades de cada categoria
+    const destaques = [];
+    Object.keys(catalogo).forEach(key => {
+      catalogo[key].items.filter(p => p.nova).slice(0,1).forEach(p => destaques.push({cat:key, p}));
+    });
+    grid.innerHTML = destaques.slice(0,8).map(d => productCardHTML(d.cat, d.p)).join('');
+    grid.querySelectorAll('[data-whats]').forEach(a => { a.href = whatsLink(a.getAttribute('data-whats')); a.target='_blank'; a.rel='noopener'; });
+    grid.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
+  })();
+</script>
+</body>
+</html>

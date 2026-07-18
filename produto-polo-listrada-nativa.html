@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polo Listrada Nativa — NATIVA</title>
+<meta name="description" content="Listras finas, algodão macio. R$ 124,90. Fale com a gente no WhatsApp.">
+
+<meta property="og:type" content="product">
+<meta property="og:title" content="Polo Listrada Nativa — NATIVA">
+<meta property="og:description" content="Listras finas, algodão macio. R$ 124,90. Fale com a gente no WhatsApp.">
+<meta property="og:image" content="https://nativa.com.br/produto-imagens/polo-listrada-nativa.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1500">
+<meta property="og:url" content="https://nativa.com.br/produto-polo-listrada-nativa.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<p class="breadcrumb"><a href="index.html">Início</a> / <a href="polos.html">Polos</a> / Polo Listrada Nativa</p>
+
+<section class="section" style="padding-top:36px">
+  <div class="product-detail">
+    <div class="product-detail-media">
+      <img src="produto-imagens/polo-listrada-nativa.png" alt="Polo Listrada Nativa" style="width:100%;display:block">
+    </div>
+    <div class="product-detail-info">
+      <p class="eyebrow">Polos</p>
+      <h1>Polo Listrada Nativa</h1>
+      <p class="product-detail-desc">Listras finas, algodão macio.</p>
+      <div class="product-price">R$ 124,90</div>
+      <div class="swatches"><span class="swatch" style="background:#F4F1EA" title="Branco"></span><span class="swatch" style="background:#3D5A80" title="Azul"></span></div>
+      <div class="sizes"><span>P</span><span>M</span><span>G</span><span>GG</span></div>
+      <a class="btn btn-primary" data-whats="Olá! Tenho interesse nesta peça da NATIVA:
+Polo Listrada Nativa - R$ 124,90
+https://nativa.com.br/produto-polo-listrada-nativa.html
+
+Ainda está disponível?" style="margin-top:24px">
+        <svg><use href="icons.svg#ic-whats"></use></svg>
+        Comprar no WhatsApp
+      </a>
+      <div style="margin-top:18px">
+        <a class="link-more" href="polos.html">← Voltar para Polos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <p class="eyebrow" style="justify-content:center;color:#f2ddd6">Não é bem essa a peça?</p>
+  <h2 class="reveal">Veja mais opções de polos no catálogo.</h2>
+  <a class="btn" href="polos.html">Ver polos</a>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="main.js"></script>
+<script src="layout.js"></script>
+<script src="products.js"></script>
+<script>
+  mountLayout('polos');
+  document.querySelectorAll('[data-whats]').forEach(a => {
+    a.href = whatsLink(a.getAttribute('data-whats'));
+    a.target = '_blank'; a.rel = 'noopener';
+  });
+</script>
+</body>
+</html>
