@@ -19,8 +19,8 @@ window.LOJA = {
   // Preenchendo isso, o site passa a usar o banco de dados como fonte
   // principal dos produtos (tem prioridade sobre a planilha e sobre o
   // catálogo padrão).
-  supabaseUrl: 'https://zuvgeefkubormxzmsinf.supabase.co',
-  supabaseAnonKey: 'sb_publishable_d7tkgLws1j5kRa50y3xBgQ_tEGiVqru',
+  supabaseUrl: '',
+  supabaseAnonKey: '',
 
   // <-- COLE AQUI o link "Publicar na web" (formato CSV) da planilha de
   // produtos, se você quiser que a lojista adicione/remova produtos
