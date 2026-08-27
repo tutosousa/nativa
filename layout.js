@@ -23,14 +23,14 @@ function headerHTML(activeKey){
 
   return `
   <div class="announce">
-    <a href="#" data-whats="Olá! Quero saber mais sobre o atendimento Personal Shopper da NATIVA.">PERSONAL SHOPPER NATIVA &nbsp;|&nbsp; atendimento exclusivo no WhatsApp. <strong>CONSULTAR &gt;</strong></a>
+    <a href="#" data-whats="Olá! Quero saber mais sobre o atendimento Personal Shopper da Aurora Moda.">PERSONAL SHOPPER Aurora Moda &nbsp;|&nbsp; atendimento exclusivo no WhatsApp. <strong>CONSULTAR &gt;</strong></a>
   </div>
 
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" class="brand">
         <svg class="brand-mark"><use href="icons.svg#ic-selo"></use></svg>
-        <span class="brand-name">NATIVA<span>Moda com raiz própria</span></span>
+        <span class="brand-name">Aurora Moda<span>Moda com raiz própria</span></span>
       </a>
 
       <nav class="main-nav" id="mainNav">
@@ -48,10 +48,10 @@ function headerHTML(activeKey){
           <svg><use href="icons.svg#ic-user"></use></svg>
           <span>Minha conta</span>
         </a>
-        <a class="icon-btn" data-whats="Olá! Quero ver minha lista de favoritos na NATIVA." aria-label="Favoritos">
+        <a class="icon-btn" data-whats="Olá! Quero ver minha lista de favoritos na Aurora Moda." aria-label="Favoritos">
           <svg><use href="icons.svg#ic-heart"></use></svg>
         </a>
-        <a class="icon-btn" data-whats="Olá! Quero fechar um pedido na NATIVA." aria-label="Sacola">
+        <a class="icon-btn" data-whats="Olá! Quero fechar um pedido na Aurora Moda." aria-label="Sacola">
           <svg><use href="icons.svg#ic-bag"></use></svg>
         </a>
         <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -89,7 +89,7 @@ function footerHTML(){
       <div class="footer-brand">
         <a href="index.html" class="brand">
           <svg class="brand-mark"><use href="icons.svg#ic-selo"></use></svg>
-          <span class="brand-name">NATIVA</span>
+          <span class="brand-name">Aurora Moda</span>
         </a>
         <p>Moda com corte firme e acabamento que dura. Peças pensadas pra rotina de verdade.</p>
       </div>
@@ -107,12 +107,12 @@ function footerHTML(){
           <li><a href="contato.html">Contato</a></li>
           <li><a href="contato.html#trocas">Trocas e devoluções</a></li>
           <li><a href="contato.html#entregas">Entregas</a></li>
-          <li><a href="#" data-whats="Olá! Vim do site da NATIVA.">WhatsApp</a></li>
+          <li><a href="#" data-whats="Olá! Vim do site da Aurora Moda.">WhatsApp</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 NATIVA. Todos os direitos reservados.</span>
+      <span>© 2026 Aurora Moda. Todos os direitos reservados.</span>
       <span>CNPJ 00.000.000/0001-00 · Feito com firmeza em Pernambuco</span>
     </div>
   </footer>`;
@@ -178,7 +178,7 @@ function mountLayout(activeKey){
       e.preventDefault();
       const termo = searchInput.value.trim();
       if(!termo) return;
-      window.open(whatsLink(`Olá! Estou procurando: "${termo}" na NATIVA. Vocês têm disponível?`), '_blank', 'noopener');
+      window.open(whatsLink(`Olá! Estou procurando: "${termo}" na Aurora Moda. Vocês têm disponível?`), '_blank', 'noopener');
     });
   }
 
